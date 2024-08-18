@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '../variables.css';
+
+.about-container{
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4%;
+}
+
+.about-left{
+    flex: 45%;
+    align-content: center;
+    justify-content: center;
+}
+
+.about-right{
+    height: 100%;
+    flex: 45%;
+    align-content: center;
+}
+
+.about-right h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-right h2 span{
+    color: var(--rose);
+}
+
+.about-right p{
+    text-align: justify;
+}
+
+.about-midias{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-midias li{
+    margin-left: 10px;
+}
+
+.about-midias li a{
+    color: var(--rose);
+    padding:  10px 20px;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.about-midias li a:hover{
+    color: var(--white);
+}
+
+/* PROJETOS */
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects-box{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projects-box .projects-cards{
+    width: 400px;
+    height: 400px;
+    border: 2px solid var(--rose);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.projects-cards a{
+    display: block;
+    width: 100%;
+    background-color: var(--rose);
+    padding: 20px 0;
+    border-radius: 0 0 7px 7px;
+}
+
+/* FORMULARIO */
+
+.contact-container{
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4%;
+
+}
+
+.contact-right{
+    flex: 45%;
+    justify-content: center;
+    align-content: center;
+}
+
+form{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 100px;
+    border-radius: 10px;
+}
+
+form h1{
+    margin-bottom: 70px;
+}
+
+
+form input{
+    width: 100%;
+    padding: 10px 20px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--rose);
+    color: var(--white);
+}
+
+form input::placeholder{
+    color: var(--white);
+}
+
+form textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    resize: none;
+    height: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--rose);
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    
+}
+
+form textarea::placeholder{
+    color: var(--white);
+}
+
+form button{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px ;
+    cursor: pointer;
+    background-color: var(--rose);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 1px 1px 30px var(--rose);
+    transition: transform 0.3s ease;
+    transition: 0.3s;
+}
+
+form button:hover{
+    box-shadow: 1px 1px 30px var(--hover);
+    background-color: var(--hover);
+    transform: scale(1.1);
+}
+
+/* CONTATO */
+
+.contact-left{
+    flex: 45%;
+    align-content: center;
+}
+
+.contact-left h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-left h2 span{
+    color: var(--rose);
+}
+
+.contact-left .contacts{
+    margin: 10px 0;
+}
+
+.contact-left .contacts p{
+    font-size: 22px;
+}

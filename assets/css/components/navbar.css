@@ -1,0 +1,46 @@
+@import '../variables.css';
+
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.nav-links{
+    margin-left: 100px;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links ul li a{
+    padding: 7px 14px;
+    border-radius: 1px;
+}
+
+.nav-links ul li a:hover{
+    border-top: 3px solid var(--rose);
+    color: var(--rose);
+    text-shadow: 1px 1px 10px var(--rose);
+
+}
+
+a.nav-btn{
+    padding: 10px 20px;
+    background-color: var(--rose);
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px var(--rose);
+    transition: 0.3s;
+}
+
+a.nav-btn:hover{
+    background-color: var(--hover);
+    border: none;
+    color: var(--white);
+    box-shadow: 1px 1px 30px var(--hover);
+}
+

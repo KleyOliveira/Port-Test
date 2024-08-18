@@ -1,0 +1,76 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links, .nav-btn{
+        display: none;
+    }
+
+    .navbar{
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .header-container{
+        margin-top: 100px;
+    }
+
+    .header-left{
+        text-align: center;
+        flex: 100%;
+    }
+
+    .header-left h2{
+        font-size: 40px;
+    }
+
+    .header-right{
+        margin-top: 50px;
+        flex: 100%;
+    }
+
+    .about-left{
+        display: none;
+    }
+
+    .about-right{
+        flex: 100%;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .projects-container{
+        margin: 100px 0;
+    }
+
+    .projects-box{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .projects-cards{
+        width: 100%;
+    }
+
+    .contact-container{
+        text-align: center;
+    }
+
+    .contact-left{
+        flex: 100%;
+    }
+
+    .contact-right{
+        flex: 100%;
+    }
+
+    form{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .footer-container{
+        margin-top: 300px;
+    }
+}

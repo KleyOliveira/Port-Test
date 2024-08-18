@@ -1,0 +1,51 @@
+@import '../variables.css';
+
+.header-container .headline{
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3% 4%;
+}
+
+.header-left{
+    flex: 45%;
+    align-content: center;
+    color: var(--white);
+}
+
+.header-left h3{
+    letter-spacing: 15px;
+}
+
+.header-left h2{
+    font-size: 50px;
+}
+
+.header-left h2 span{
+    color: var(--rose);
+}
+
+.header-left p{
+    margin: 10px 0 25px 0;
+    text-align: justify;
+}
+
+.header-left a{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: var(--rose);
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px var(--rose);
+    transition: transform 0.3s ease;
+    transition: 0.3s;
+}
+
+.header-left a:hover{
+    background-color: var(--hover);
+    box-shadow: 1px 1px 30px var(--hover);
+    transform: scale(1.1);
+}
+
+.header-right{
+    flex: 45%;
+}
